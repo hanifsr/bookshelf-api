@@ -4,7 +4,8 @@
   "description": "dicoding belajar membuat aplikasi back-end untuk pemula submission",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
   },
   "keywords": [
     "back-end",
@@ -12,5 +13,13 @@
     "rest-api"
   ],
   "author": "Hanif Sulthan Rizqullah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2"
+  }
 }
