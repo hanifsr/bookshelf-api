@@ -1,0 +1,16 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "dicoding belajar membuat aplikasi back-end untuk pemula submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "back-end",
+    "node.js",
+    "rest-api"
+  ],
+  "author": "Hanif Sulthan Rizqullah",
+  "license": "ISC"
+}
